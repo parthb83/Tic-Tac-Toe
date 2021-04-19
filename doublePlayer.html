@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <title>Double Player</title>
-</head>
-<body>
-    <h1>Double Player</h1>
-    <br>
-    <br>
-    <br>
+  </head>
+  <body>
+    <h1 class="player">Double Player</h1>
+    <br />
+    <br />
+    <br />
+    <h2 class="turn"></h2>
+    <br />
+    <br />
 
     <table>
-        <tr>
-            <td class="box" id="0"></td>
-            <td class="box" id="1"></td>
-            <td class="box" id="2"></td>
-        </tr>
+      <tr>
+        <td class="box" id="0"></td>
+        <td class="box" id="1"></td>
+        <td class="box" id="2"></td>
+      </tr>
 
-        <tr>
-            <td class="box" id="3"></td>
-            <td class="box" id="4"></td>
-            <td class="box" id="5"></td>
-        </tr>
+      <tr>
+        <td class="box" id="3"></td>
+        <td class="box" id="4"></td>
+        <td class="box" id="5"></td>
+      </tr>
 
-        <tr>
-            <td class="box" id="6"></td>
-            <td class="box" id="7"></td>
-            <td class="box" id="8"></td>
-        </tr>
+      <tr>
+        <td class="box" id="6"></td>
+        <td class="box" id="7"></td>
+        <td class="box" id="8"></td>
+      </tr>
     </table>
 
     <div class="endgame">
-        <div class="text"></div>
+      <div class="text"></div>
+      <br />
+      <button onclick="startGame()" class="replay">Replay Game</button>
     </div>
-    <button onclick="startGame()">Replay Game</button>
+    <br />
+    <br />
     <script src="app2.js"></script>
-</body>
+  </body>
 </html>
