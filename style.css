@@ -82,7 +82,7 @@ table {
   display: inline-block;
   font-size: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 43%;
+  margin-top: 7rem;
   cursor: pointer;
-  margin-left: 875px;
-  margin-top: 150px;
 }
